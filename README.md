@@ -1,4 +1,5 @@
 # **README.md**
+Version 0.11 - Taxonomy_Create_and_Apply testing
 
 In the works repo to store instructions for Gemini Web use. 
 
