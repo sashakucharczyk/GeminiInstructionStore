@@ -25,7 +25,7 @@ Assign each row in the dataset to exactly one class from the induced taxonomy, o
     - Assess how well the text matches the class definition:
       - Check for characteristic keywords and phrases.
       - Consider the main intent or problem described.
-    - Assign a raw match score (conceptual) between 0 and 1.
+    - Calculate the Raw Match Confidence Score (between 0 and 1) based on an anthropic review of the text and class.
   - Select the class with the highest match score as `best_class`.
   - If all scores are extremely low and there is a designated catch-all class:
     - Assign the catch-all class and set confidence accordingly.

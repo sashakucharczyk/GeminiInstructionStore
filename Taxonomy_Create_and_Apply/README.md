@@ -76,3 +76,8 @@ Do **not** use this skill when:
 - The taxonomy is inferred from the dataset; if the dataset is tiny or wildly mixed, the classes may be coarse.
 - This skill does **not** guarantee long-term stability of the taxonomy across unrelated datasets.
 - Class names and counts can vary depending on the data and the agent’s judgment.
+
+## Known issues
+
+- Confidence is currently a single value, need to rework on a per row
+- Output on Gemini gets slow at large file sizes, need to chunk to about 500 per chunk (max)
