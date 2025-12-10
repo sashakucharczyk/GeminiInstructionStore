@@ -1,7 +1,7 @@
 # **README.md**
 Version 0.11 - Taxonomy_Create_and_Apply testing
 
-In the works repo to store instructions for Gemini Web use. 
+In the works repo to store instructions for Gemini Web use. Changed to Google Drive to create this functionality.
 
 Target use-case = can have Gemini auto-reference this to pull instructions based on a prompt.
 
